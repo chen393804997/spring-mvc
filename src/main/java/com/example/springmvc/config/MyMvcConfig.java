@@ -27,7 +27,7 @@ public class MyMvcConfig {
     public InternalResourceViewResolver viewResolver(){
         InternalResourceViewResolver internalResourceViewResolver = new InternalResourceViewResolver();
         //配置view的路径
-        internalResourceViewResolver.setPrefix("/WEB-INF/classes/static.views");
+        internalResourceViewResolver.setPrefix("/WEB-INF/classes/static.views/");
         //设置拼接的后缀
         internalResourceViewResolver.setSuffix(".jsp");
         internalResourceViewResolver.setViewClass(JstlView.class);
