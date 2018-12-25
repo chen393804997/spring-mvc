@@ -19,4 +19,10 @@ public class MyController {
     public Result getException() throws Exception {
         throw new ResultException("1","异常");
     }
+
+    @RequestMapping(value = "/getString",produces = "text/plain;charset=UTF-8")
+    @ResponseBody
+    public String getString(){
+        return "成功";
+    }
 }
