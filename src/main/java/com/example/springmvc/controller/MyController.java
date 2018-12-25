@@ -1,6 +1,6 @@
 package com.example.springmvc.controller;
 
-import com.example.springmvc.core.Result;
+import com.example.springmvc.common.Result;
 import com.example.springmvc.exception.ResultException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

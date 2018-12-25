@@ -1,6 +1,6 @@
 package com.example.springmvc.exception;
 
-import com.example.springmvc.core.Result;
+import com.example.springmvc.common.Result;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

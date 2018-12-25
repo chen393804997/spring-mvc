@@ -1,4 +1,4 @@
-package com.example.springmvc.core;
+package com.example.springmvc.common;
 
 public class Result<T> {
     public boolean success;
